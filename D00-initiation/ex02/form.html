@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="./popup.js" defer></script>
+    <style>
+        body {
+            display: flex; justify-content: center;
+            align-items: center; height: 100vh;
+        }
+        .contact-form {
+            padding: 20px; border-radius: 8px;
+            box-shadow: 0 0 10px #7e7e7e;
+            max-width: 500px;
+        }
+        .contact-form .label {
+            font-weight: bold; display: block; margin-bottom: 10px;
+        }
+        .contact-form button {
+            background-color: #000000; color: #fff;
+            padding: 5px 10px; margin-top: 1em;
+            border: none; border-radius: 4px;
+            cursor: pointer;   
+        }
+        .contact-form .label2 {padding-top: 5px;}
+    </style>
+</head>
+
+<body>
+    <form class="contact-form">
+        <h2>Contact</h2>
+        <label class="label" for="firstname">Firstname: </label>
+        <input type="text" id="firstname"/><br>
+
+        <label class="label" for="name">Name: </label>
+        <input type="text" id="name"/><br>
+
+        <label class="label" for="age">Age: </label>
+        <input type="number" id="age"/><br>
+
+        <label class="label" for="phone">Phone number: </label>
+        <input type="tel" id="phone"/><br>
+
+        <label class="label"for="email">Email: </label>
+        <input type="email" id="email"/><br>
+
+        <input type="checkbox" id="student"/>
+        <label class="label2" for="student">Student at 42?</label>
+
+        <p>Gender:</p>
+        <input type="radio" id="gender_female" name="option" value="Female"/>
+        <label for="female">Female</label>
+        <input type="radio" id="gender_male" name="option" value="Male"/>
+        <label for="male">Male</label>
+        <input type="radio" id="gender_other" name="option" value="Other"/>
+        <label for="other">Other</label><br>
+
+        <button onclick="displayFormContents().value">Submit</button>
+    </form>
+</body>
+</html>
