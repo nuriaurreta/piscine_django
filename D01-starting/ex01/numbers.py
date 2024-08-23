@@ -1,4 +1,4 @@
-def numbers():
+def main():
     reader = open('numbers.txt', 'r')
     try:
         txt = reader.read().split(',')
@@ -8,4 +8,4 @@ def numbers():
         reader.close()
 
 if __name__ == '__main__':
-    numbers()
+    main()

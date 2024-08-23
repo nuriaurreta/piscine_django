@@ -11,7 +11,7 @@ d={
     'Thompson' : '1949', 'Burton' : '1939',
 }
 
-def sort_dict(dic):
+def main(dic):
     """ (dic.items() -> creates a list of tuples from the dictionary
     sorted(..., key=lambda item: (item[1], item[0]) -> order the list
     first from the value (item[1] in the tuple) and then from the key
@@ -22,4 +22,4 @@ def sort_dict(dic):
         print(tup[0])
 
 if __name__ == '__main__':
-    sort_dict(d)
+    main(d)

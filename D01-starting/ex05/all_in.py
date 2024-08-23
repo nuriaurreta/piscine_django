@@ -21,7 +21,7 @@ def get_args(input_str):
     return arg_list
 
 # function that find if the arguments are in the data and if are correct
-def find_all():
+def main():
     if len(sys.argv) != 2:
         return
     
@@ -52,4 +52,4 @@ def find_all():
             print(f'{arg} is neither a capital city nor a state')
 
 if __name__ == '__main__':
-    find_all()
+    main()

@@ -13,7 +13,7 @@ capital_cities = {
     "CO": "Denver"
 }
 
-def find_capital():
+def main():
     if len(sys.argv) != 2:
         return
     
@@ -25,4 +25,4 @@ def find_capital():
         print('Unknown state')
 
 if __name__ == '__main__':
-    find_capital()
+    main()
