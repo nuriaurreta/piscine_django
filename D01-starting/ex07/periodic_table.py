@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def get_line(line):
     name, atr = line.strip().split('=')
     d = dict(item.split(':') for item in atr.strip().replace(' ', '').split(','))

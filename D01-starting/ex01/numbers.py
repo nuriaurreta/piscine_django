@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def main():
     reader = open('numbers.txt', 'r')
     try:

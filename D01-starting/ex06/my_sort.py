@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 d={
     'Hendrix' : '1942', 'Allman' : '1946',
     'King' : '1925', 'Clapton' : '1945',

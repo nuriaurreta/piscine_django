@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from beverages import HotBeverage, Coffee, Tea, Chocolate, Cappuccino
 import random
 
