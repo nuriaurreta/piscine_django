@@ -22,6 +22,10 @@ class Meta(Elem):
     def __init__(self, content=None, attr: dict = {}):
         super().__init__(tag='meta', attr = attr, content = content, tag_type='simple')
 
+class Img(Elem):
+    def __init__(self, content=None, attr: dict = {}):
+        super().__init__(tag='img', attr = attr, content = content, tag_type='simple')
+
 class Table(Elem):
     def __init__(self, content=None, attr: dict = {}):
         super().__init__(tag='table', attr = attr, content = content, tag_type='double')
